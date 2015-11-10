@@ -6,3 +6,37 @@ body {
 	background-attachment: fixed;
 	padding-top: 150px;
 }
+
+#wrapper{
+	width: 800px;
+	text-align: center;
+	margin: auto;
+}
+
+#main{
+	margin-bottom: 0px;
+}
+
+h1{
+	color: white;
+	font-family: "Megrim", cursive;
+	font-size: 4em;
+	text-shadow: 0px 0px 10px lightblue;
+}
+
+#avatar {
+    background-image: url('profile.jpg');
+    
+    width: 150px;
+    height: 150px;
+    margin-top: -50px;
+    margin-right: 150px;
+    background-size: cover;
+	/* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+
+    position: absolute;
+	  top:25%;
+	  left:50%;
+	  transform: translate(-50%,-50%)
+}
