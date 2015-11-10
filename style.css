@@ -20,22 +20,21 @@ body {
 
 h1{
 	color: white;
-	font-family: "Megrim", cursive;
+	font-family: "Courier New", Courier, monospace;
 	font-size: 4em;
-	text-shadow: 0px 0px 10px #006666;
+	text-shadow: 0px 0px 10px #FFFFAD;
 }
 
 #avatar {
     background-image: url('profile.jpg');
     
-    width: 150px;
-    height: 150px;
-    margin-top: -50px;
+    width: 140px;
+    height: 140px;
+    margin-top: -60px;
     margin-right: 150px;
     background-size: cover;
 	/* round the edges to a circle with border radius 1/2 container size */
     border-radius: 50%;
-
     position: absolute;
 	top:25%;
 	left:50%;
@@ -53,7 +52,7 @@ div .icons{
 }
 
 div #project{
-	margin-top: -50px;
+	margin-top: -180px;
 }
 
 a{
@@ -65,7 +64,7 @@ a{
 }
 
 footer{
-	margin-top: 320px;
+	margin-top: 310px;
 	display: block;
 }
 
@@ -81,3 +80,119 @@ img {
  	padding-top: -20px;
  	vertical-align: left;
 }
+
+#content-wrap {
+  display: block; 
+  position: absolute;
+  float: none;
+  width: 50%;
+  height: 80vh;
+  background-image: url('images/pattern.jpg'); 
+  background-repeat: none;
+  left: 25%;
+  margin-top: -90px;
+  padding: 70px;
+  z-index: 3;
+  -webkit-transition: all 1s ease;
+  transition:         all 1s ease;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.20);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.20);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.20);
+}
+
+.row {
+  margin: 0;
+}
+
+.main-content {
+  display: block;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.cat-pages-title {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: 78px 0 0;
+}
+
+.about-description {
+  display: block;
+  float: none;
+  margin: 0 auto;
+}
+
+.iconbox {
+  display: block;
+  position: relative;
+  float: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.iconbox ul li {
+  display: block;
+  position: relative;
+  margin: 0 0 58px;
+  padding: 0;
+  float: left;
+  list-style: none;
+  -webkit-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
+}
+
+.social-icons {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  bottom: 0px;
+  height: 50px;
+}
+
+.social-icons ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style: none;
+}
+
+.social-icons ul {
+  display: block;
+  margin: 16px auto 0;
+  padding: 0;
+  float: none;
+  position: relative;
+  list-style: none;
+  text-align: center;
+}
+
+.main-content h2 {
+  font-family: "Poiret One", sans-serif;
+  font-size: 50px;
+  margin: 0 0 18px;
+  margin-top: 40px;
+  padding: 120px;
+}
+
+.main-content p {
+  display: block;
+  margin: 0 auto 18px;
+  padding: 0;
+  float: none;
+  text-align: center;
+  width: 60%;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  margin-top: -80px;
+  color: #FFFFAA;
+}
+
