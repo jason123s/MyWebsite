@@ -14,6 +14,7 @@ body {
 }
 
 #main{
+	margin-top: 70px;
 	margin-bottom: 0px;
 }
 
@@ -21,7 +22,7 @@ h1{
 	color: white;
 	font-family: "Megrim", cursive;
 	font-size: 4em;
-	text-shadow: 0px 0px 10px lightblue;
+	text-shadow: 0px 0px 10px #006666;
 }
 
 #avatar {
@@ -36,7 +37,28 @@ h1{
     border-radius: 50%;
 
     position: absolute;
-	  top:25%;
-	  left:50%;
-	  transform: translate(-50%,-50%)
+	top:25%;
+	left:50%;
+	transform: translate(-50%,-50%)
+}
+
+div .icons{
+	margin-top: 40px;
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFCC;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer{
+	margin-top: 330px;
+	display: block;
+}
+
+footer p{
+	color: white;
 }
