@@ -14,7 +14,7 @@ body {
 }
 
 #main{
-	margin-top: 70px;
+	margin-top: 80px;
 	margin-bottom: 0px;
 }
 
@@ -42,8 +42,18 @@ h1{
 	transform: translate(-50%,-50%)
 }
 
+div h2{
+	text-align: center;
+	margin-top: 220px;
+	margin-bottom: 0px;
+}
+
 div .icons{
-	margin-top: 40px;
+	margin-top: 60px;
+}
+
+div #project{
+	margin-top: -50px;
 }
 
 a{
@@ -55,10 +65,19 @@ a{
 }
 
 footer{
-	margin-top: 330px;
+	margin-top: 320px;
 	display: block;
 }
 
 footer p{
 	color: white;
+}
+
+.container{
+	margin-top: -320px;
+}
+
+img {
+ 	padding-top: -20px;
+ 	vertical-align: left;
 }
